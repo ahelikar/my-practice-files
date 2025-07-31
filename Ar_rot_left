@@ -1,0 +1,10 @@
+def rotate_left(a,k):
+ n=len(a)
+ k=k%n
+ rot_ar=a[k:]+a[:k]
+ return rot_ar
+my_ar=[1,2,3,4,5,6,7,8]
+k_pos=3
+print(f"Original array:{my_array}")
+print(f"Array after rotating to left:{(rotate_left(my_ar,k_pos))})
+
