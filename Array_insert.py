@@ -1,3 +1,4 @@
+import array
 arr=[1,20,30,40,50]
 ele=25
 print("Array before insertion of element")
