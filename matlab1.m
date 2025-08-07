@@ -22,4 +22,6 @@ fibonacci = arrayfun(@fibonacci_recursive, 1:n);
 disp(fibonacci
 A = zeros(4, 4);
 disp(A);
+p=(21:7:105);
+disp(p)
 
