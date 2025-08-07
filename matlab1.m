@@ -19,5 +19,7 @@ end
 
 n = 10; % Number of Fibonacci numbers
 fibonacci = arrayfun(@fibonacci_recursive, 1:n);
-disp(fibonacci);
+disp(fibonacci
+A = zeros(4, 4);
+disp(A);
 
