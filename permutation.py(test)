@@ -1,0 +1,8 @@
+import itertools
+d={1:['a','b'],2:['c','d']}
+keys=list(d.keys())
+permut=itertools.permutations(keys)
+res=[" ".join(p) for p in permut]
+print(f"All possible combination :")
+for item in res:
+    print(item)
