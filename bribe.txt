@@ -1,0 +1,14 @@
+
+def minimumBribes(q):
+    bribes=0
+    n=len(q)
+    for i in range(n):
+        per_num=q[i]
+        if per_num-(i+1)>2:
+            print("Too chaotic")
+        for j in range(i):
+            if q[j]>per_num:
+                bribes+=1
+        print(bribes)
+q=[5,4,3,2,1]
+print(minimumBribes(q))
