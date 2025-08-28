@@ -1,0 +1,7 @@
+z=complex(2,3);
+disp(z);
+t=abs(z);
+disp(t*exp(i*theta));
+%{disp(conj(z));%}
+%{disp(angle(z));%}
+%{[theta,r]=cart2pol(real(z),imag(z));%}
