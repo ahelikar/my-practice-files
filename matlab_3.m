@@ -14,6 +14,11 @@ disp(A-B);
 disp(A.*B);
 disp(A*B);
 disp(A./B);
+C=[1;2;3;];
+disp([C;zeros(4,1)]);
+D=[4.0;5.0;6];
+disp([C,D]);
+
 
 
 
